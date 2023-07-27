@@ -1,3 +1,9 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
 .site-header{
     padding: 24px;
     display:flex;
@@ -26,23 +32,23 @@ ul li a{
     margin-right: 30px;
 
 }
-.tugma{
-    width: 189px;
-    height: 47px;
-    border-radius: 8px;
-    border: 2px;
-    padding: 12px,24px,12px,24px;
-    background: #DE2E54;
-    text-align: center;
-}
 .tugma-text{
+    background: #DE2E54;
     color: #fff;
     text-decoration: none;
-    width: 141px;
-    height: 23px;
     size: 15px;
-    text-align: center;
+    border-radius: 8px;
+    padding:15px 22px;
+    text-transform: uppercase;
 }
+.tugma-text:hover{
+    transition: background 0.5s ease;
+    background:#fff;
+    color:#DE2E54;
+    border: 2px solid #DE2E54;
+}
+.button2:hover{
+    opacity: 80%;}
 .site-main{
     width: 1534pxpx;
     height: 433px;
@@ -50,11 +56,19 @@ ul li a{
 
     display: flex;
 }
+.button3{
+    background:none;
+}
+.button3:hover{
+    background:#DE2E54;
+    color:#fff;
+}
 .main-text{
     color: #fff;
     width: 500px;
     height: 293px;
     padding-top:100px;
+
     margin-left: 170px;
 
 }
@@ -116,4 +130,8 @@ h2{
 }
 .site-footer-right{
     padding-left:180px;
+}
+.button-footer{
+    background-color:none;
+    color;none;
 }
